@@ -16,14 +16,14 @@ This project is ideal for users looking for an AI assistant that works independe
 
 Installation:
 Clone the repository:
-git clone https://github.com/manasauti29/AiDeskPet.git
+git clone https://github.com/manasauti29/AiDeskPet.git 
 
 To set up the environment on Ubuntu OS running on Raspberry Pi 5.
 Download VS code, python3.10+, ollama
 
 To download ollama
 Install with one command:
-curl -fsSL https://ollama.com/install.sh | sh
+curl -fsSL https://ollama.com/install.sh | sh <br>
 Then download a LLM model in Ollama 
 ollama run tinyllama
 
