@@ -16,18 +16,24 @@ This project is ideal for users looking for an AI assistant that works independe
 
 Installation:
 Clone the repository:
-git clone https://github.com/yourusername/AiDeskPet.git
+git clone https://github.com/manasauti29/AiDeskPet.git
 
-Follow the installation instructions in the README.md to set up the environment on Ubuntu OS running on Raspberry Pi 5.
+To set up the environment on Ubuntu OS running on Raspberry Pi 5.
+Download VS code, python3.10+, ollama
+
+To download ollama
+Install with one command:
+curl -fsSL https://ollama.com/install.sh | sh
+Then download a LLM model in Ollama 
+ollama run tinyllama
+
+Run the Requirements.txt to install all the dependencies
+To set up the environment on Ubuntu OS running on Raspberry Pi 5.
 
 Enjoy an offline, local AI chatbot powered by Ollama LLM!
 
 Technologies Used:
 Ollama LLM for natural language processing
-
 Raspberry Pi 5 (8GB RAM variant)
-
 Ubuntu OS
-
-Python, Bash scripting, and necessary libraries for integration
 
