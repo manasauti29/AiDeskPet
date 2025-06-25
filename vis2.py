@@ -102,7 +102,7 @@ def ask_tinyllama(prompt):
     responses = {
         "hello": "Hello! How can I assist you today?",
         "hi": "Hi there! How can I help?",
-        "who are you": "I am an AI assistant made at 3DEXPERIENCE Lab, Dassault Systèmes.",
+        "who are you": "I am an AI assistant",
     }
 
     if prompt in responses:
